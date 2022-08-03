@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+#header-img {
+    width: 40px;
+    height: 40px;
+    margin-left: 3vw;
+    margin-top: -4px;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+#header-title {
+    color: rgb(50, 170, 50);
+    font-size: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    margin-left: 45vw;
+}
+
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(168, 38, 38);
+}
+
+.feature-pic {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+main {
+    width: 100%;
+}
+
+.main-body {
+    margin-top: 60px;
+}
+
+.features-div {
+    display: flex;
+}
+
+#feature-title {
+    letter-spacing: 2px; 
+}
+
+.feature-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25%;
+    font-size: 12px;
+    margin-left: 12px;
+}
+
+#video {
+    width: 33.3%;
+    height: 33.3%;
+    margin-left: 33.3%;
+    margin-right: 33.3%;
+    margin-top: 40px;
+}
+
+#pricing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+#pricing-title {
+    background-color: rgb(199, 199, 199);
+    letter-spacing: 2px; 
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+#picnic, #giant, #seedless {
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid black;
+}
+
+button {
+    background-color:rgb(50, 170, 50);
+    border: none;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#price {
+    background-color:rgb(233, 91, 91);
+}
+
+#contact {
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#submit {
+    background-color:rgb(50, 170, 50);
+    border: none;
+    padding: 6px;
+    letter-spacing: 2px;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+    font: 6px;
+    color: rgb(179, 179, 179);
+    margin-left: 74%;
+}
+
+
+@media only screen and (max-width: 770px) {
+    .feature-desc {
+        margin-left: 0;
+        margin-right: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
